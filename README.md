@@ -9,10 +9,6 @@ Gavagnin E., Owen J.P. and Yates C.A. "Pair correlation functions
 for identifying spatial correlation in discrete domains"  
 doi: arXiv:1804.03452
 
-Created 07/02/2018
-By Enrico Gavagnin
-email: e.gavagnin@bath.ac.uk
-
 -------------------------------------------------------------------------- 
 INPUT:
 
