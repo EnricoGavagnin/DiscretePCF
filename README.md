@@ -1,5 +1,5 @@
 Pair Correlation Funcitons for discrete domains
-
+-------------------------------------------------------------------------- 
 PCF=PCF_discrete(type,M,opt) returns the vector with the values of the
 discrete pair correlation function (PCF) with metric specified by 'type'
 and occupancy matrix M.
@@ -9,9 +9,9 @@ Gavagnin E., Owen J.P. and Yates C.A. "Pair correlation functions
 for identifying spatial correlation in discrete domains"  
 doi: arXiv:1804.03452
 
--------------------------------------------------------------------------- 
-INPUT:
 
+INPUT:
+-------------------------------------------------------------------------- 
 type: string which specifies the type of PCF to use:
        PCF_discrete('taxicab',...): Square Taxicab PCF or Cube Taxicab PCF
        PCF_discrete('uniform',...): Square Uniform PCF or Cube Uniform PCF
@@ -45,9 +45,9 @@ OUTPUT:
 
 PCF: vecotr with the values of the pair correlation funciton
 
--------------------------------------------------------------------------- 
-EXAMPLES:
 
+EXAMPLES:
+-------------------------------------------------------------------------- 
   PCF=PCF_discrete('taxicab',M,'periodic') returns the Square Taxicab or 
   Cube Taxicab PCF, depending on the dimension of M, and with periodic
   boundary conditions in both directions. 
