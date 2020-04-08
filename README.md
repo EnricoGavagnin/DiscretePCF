@@ -1,6 +1,6 @@
-%%--- help for PCF_discrete ---
-%
-% PCF=PCF_discrete(type,M,opt) returns the vector with the values of the
+--- help for PCF_discrete ---
+
+PCF=PCF_discrete(type,M,opt) returns the vector with the values of the
 % discrete pair correlation function (PCF) with metric specified by 'type'
 % and occupancy matrix M.
 %
