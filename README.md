@@ -1,13 +1,16 @@
-Pair Correlation Funcitons for discrete domains
+# Pair Correlation Funcitons for discrete domains
+
+This repository contains a set of pair correlation functions designed for discrete domains. This code is part of the following pubblication, please refer to the manuscript for more details. 
+
+Reference:  
+[Gavagnin E., Owen J.P. and Yates C.A. "Pair correlation functions for identifying spatial correlation in discrete domains"](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.97.062104)
+
+
+```
 -------------------------------------------------------------------------- 
 PCF=PCF_discrete(type,M,opt) returns the vector with the values of the
 discrete pair correlation function (PCF) with metric specified by 'type'
 and occupancy matrix M.
-
-Ref: 
-Gavagnin E., Owen J.P. and Yates C.A. "Pair correlation functions  
-for identifying spatial correlation in discrete domains"  
-doi: arXiv:1804.03452
 
 
 INPUT:
@@ -44,15 +47,18 @@ type: string which specifies the type of PCF to use:
 OUTPUT:
 
 PCF: vecotr with the values of the pair correlation funciton
+```
 
 
-EXAMPLES:
--------------------------------------------------------------------------- 
+## Examples
+```
   PCF=PCF_discrete('taxicab',M,'periodic') returns the Square Taxicab or 
   Cube Taxicab PCF, depending on the dimension of M, and with periodic
-  boundary conditions in both directions. 
-
+  boundary conditions in both directions.
+```
+```  
   PCF=PCF_discrete('irregular',M,A) returns the General PCF with adjacency
-  matrix A and occupied sites M.  
+  matrix A and occupied sites M.
+```
 
 -------------------------------------------------------------------------- 
